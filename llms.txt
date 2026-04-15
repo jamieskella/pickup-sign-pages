@@ -35,5 +35,20 @@ Most name sign apps have two critical flaws: they let the screen dim/lock while 
 - Website: https://pick-up-sign.com
 - Privacy Policy: https://pick-up-sign.com/privacy/
 
+## Available Languages
+The website is available in 12 languages:
+- English: https://pick-up-sign.com/
+- Spanish: https://pick-up-sign.com/es/
+- French: https://pick-up-sign.com/fr/
+- Portuguese: https://pick-up-sign.com/pt/
+- Chinese: https://pick-up-sign.com/zh/
+- Japanese: https://pick-up-sign.com/ja/
+- Hindi: https://pick-up-sign.com/hi/
+- Arabic: https://pick-up-sign.com/ar/
+- Korean: https://pick-up-sign.com/ko/
+- German: https://pick-up-sign.com/de/
+- Italian: https://pick-up-sign.com/it/
+- Russian: https://pick-up-sign.com/ru/
+
 ## Company
 Made by Skella & Co Pty Ltd, South Australia.

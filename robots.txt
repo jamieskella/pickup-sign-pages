@@ -26,3 +26,6 @@ User-agent: Bytespider
 Allow: /
 
 Sitemap: https://pick-up-sign.com/sitemap.xml
+
+# Language directories
+# /es/ /fr/ /pt/ /zh/ /ja/ /hi/ /ar/ /ko/ /de/ /it/ /ru/
