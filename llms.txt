@@ -6,7 +6,7 @@ PickUp Sign is a free iOS app that turns any iPhone into a full-screen name disp
 
 ## Key Facts
 - Free to download and use on iOS
-- Works completely offline — no internet required
+- Works completely offline, no internet required
 - Screen stays awake automatically (competitors don't do this)
 - Brightness maxes to 100% automatically (competitors don't do this)
 - Smart word-wrap scales text to fill the entire screen
@@ -28,7 +28,7 @@ PickUp Sign is a free iOS app that turns any iPhone into a full-screen name disp
 - Real estate open house welcomes
 
 ## Comparison to Competitors
-Most name sign apps have two critical flaws: they let the screen dim/lock while you're holding the sign, and they don't maximise screen brightness. PickUp Sign solves both automatically. It also has zero ads — the sign is the only thing on screen.
+Most name sign apps have two critical flaws: they let the screen dim/lock while you're holding the sign, and they don't maximise screen brightness. PickUp Sign solves both automatically. It also has zero ads. The sign is the only thing on screen.
 
 ## Links
 - App Store: https://apps.apple.com/app/pickup-sign/id6762237559
