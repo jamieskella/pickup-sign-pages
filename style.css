@@ -802,15 +802,7 @@
   content: '/ ';
 }
 
-/* ============================================================
-   SHOWCASE
-   ============================================================ */
-.showcase {
-  padding: clamp(var(--space-8), 6vw, var(--space-16)) 0;
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
-}
+/* Showcase mockup removed as standalone section */
 
 /* ============================================================
    FAQ
@@ -894,11 +886,10 @@
   letter-spacing: -0.03em;
   margin-bottom: var(--space-4);
 }
-.final-cta__sub {
-  font-size: var(--text-base);
-  color: var(--color-text-muted);
+.final-cta__mockup {
   margin-bottom: var(--space-8);
-  margin-inline: auto;
+  display: flex;
+  justify-content: center;
 }
 .final-cta .app-badge--large {
   display: inline-flex;
