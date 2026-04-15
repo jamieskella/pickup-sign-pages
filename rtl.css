@@ -1,0 +1,13 @@
+/* RTL overrides for Arabic */
+[dir="rtl"] .header__inner { direction: rtl; }
+[dir="rtl"] .header__nav { direction: rtl; }
+[dir="rtl"] .header__mobile-nav { direction: rtl; }
+[dir="rtl"] .hero__content { text-align: right; }
+[dir="rtl"] .hero__sub { margin-inline-start: 0; }
+[dir="rtl"] .step { text-align: center; }
+[dir="rtl"] .faq__question::after { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .footer__inner { direction: rtl; }
+[dir="rtl"] .privacy-back svg { transform: scaleX(-1); }
+@media (max-width: 767px) {
+  [dir="rtl"] .hero__content { text-align: center; }
+}

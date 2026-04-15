@@ -66,6 +66,50 @@
     }, { passive: true });
   }
 
+  /* ---- Language switcher ---- */
+  const langBtn = document.querySelector('.lang-switch__btn');
+  const langDropdown = document.querySelector('.lang-switch__dropdown');
+  if (langBtn && langDropdown) {
+    langBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = !langDropdown.hidden;
+      langDropdown.hidden = open;
+      langBtn.setAttribute('aria-expanded', String(!open));
+    });
+    document.addEventListener('click', () => {
+      langDropdown.hidden = true;
+      langBtn.setAttribute('aria-expanded', 'false');
+    });
+    langDropdown.addEventListener('click', (e) => e.stopPropagation());
+  }
+
+  /* ---- Language auto-suggest ---- */
+  (function() {
+    var supported = ['en','es','fr','pt','zh','ja','hi','ar','ko','de','it','ru'];
+    var path = window.location.pathname;
+    var currentLang = 'en';
+    for (var i = 0; i < supported.length; i++) {
+      if (path.indexOf('/' + supported[i] + '/') !== -1) {
+        currentLang = supported[i];
+        break;
+      }
+    }
+    var browserLang = (navigator.language || '').split('-')[0].toLowerCase();
+    if (browserLang && browserLang !== currentLang && supported.indexOf(browserLang) !== -1) {
+      var dismissed = sessionStorage.getItem('lang_dismissed');
+      if (!dismissed) {
+        var names = {en:'English',es:'Español',fr:'Français',pt:'Português',zh:'中文',ja:'日本語',hi:'हिन्दी',ar:'العربية',ko:'한국어',de:'Deutsch',it:'Italiano',ru:'Русский'};
+        var url = browserLang === 'en' ? '/' : '/' + browserLang + '/';
+        if (currentLang !== 'en') url = '../' + (browserLang === 'en' ? '' : browserLang + '/');
+        var bar = document.createElement('div');
+        bar.className = 'lang-suggest';
+        bar.innerHTML = '<a href="' + url + '">' + names[browserLang] + '</a><button aria-label="Dismiss">&times;</button>';
+        bar.querySelector('button').onclick = function() { bar.remove(); sessionStorage.setItem('lang_dismissed','1'); };
+        document.body.prepend(bar);
+      }
+    }
+  })();
+
   /* ---- Smooth scroll for anchor links ---- */
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', e => {

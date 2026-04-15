@@ -1,10 +1,233 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pick-up-sign.com/</loc>
     <lastmod>2026-04-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/es/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/fr/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/pt/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/zh/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/ja/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/hi/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/ar/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/ko/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/de/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/it/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/ru/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://pick-up-sign.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://pick-up-sign.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://pick-up-sign.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://pick-up-sign.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://pick-up-sign.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://pick-up-sign.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://pick-up-sign.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://pick-up-sign.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://pick-up-sign.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://pick-up-sign.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://pick-up-sign.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://pick-up-sign.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://pick-up-sign.com/"/>
   </url>
   <url>
     <loc>https://pick-up-sign.com/privacy/</loc>
