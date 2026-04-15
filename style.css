@@ -934,19 +934,43 @@
    RESPONSIVE TWEAKS
    ============================================================ */
 
+/* Phone mockups on mobile */
+@media (max-width: 767px) {
+  .phone-mockup--hero .phone-mockup__frame {
+    width: 150px;
+    height: 310px;
+    border-radius: 24px;
+  }
+  .phone-mockup--hero .phone-mockup__name {
+    font-size: 2rem;
+  }
+  .phone-mockup--secondary .phone-mockup__frame {
+    width: 130px;
+    height: 270px;
+    border-radius: 22px;
+  }
+  .phone-mockup--secondary .phone-mockup__name {
+    font-size: 1.5rem;
+  }
+  .phone-mockup--secondary {
+    margin-top: 2rem;
+  }
+}
+
 /* Small phones */
 @media (max-width: 374px) {
   .hero__heading {
     font-size: clamp(1.8rem, 8vw, 2.5rem);
   }
-  .phone-mockup__frame {
-    width: 140px;
-    height: 290px;
+  .phone-mockup--hero .phone-mockup__frame {
+    width: 130px;
+    height: 270px;
     border-radius: 22px;
   }
   .phone-mockup--secondary .phone-mockup__frame {
-    width: 120px;
-    height: 250px;
+    width: 110px;
+    height: 230px;
+    border-radius: 20px;
   }
 }
 
