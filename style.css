@@ -1101,7 +1101,7 @@
 .phone-mockup__name-landscape {
   font-family: 'General Sans', sans-serif;
   font-weight: 800;
-  font-size: 72px;
+  font-size: 110px;
   letter-spacing: -0.02em;
   line-height: 1;
   user-select: none;
@@ -1114,7 +1114,7 @@
     border-radius: 16px;
   }
   .phone-mockup__name-landscape {
-    font-size: 52px;
+    font-size: 80px;
   }
   .phone-mockup__notch-landscape {
     width: 14px;
