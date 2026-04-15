@@ -1,0 +1,16 @@
+/* TEAM */
+Company: Skella & Co Pty Ltd
+Location: Adelaide, South Australia, Australia
+Contact: jamie@skella.com.au
+
+/* APP */
+Name: PickUp Sign
+Platform: iOS (Android coming soon)
+Description: The simplest airport pickup sign app
+Languages: English, Spanish, French, Portuguese, Chinese, Japanese, Hindi, Arabic, Korean, German, Italian, Russian
+App Store: https://apps.apple.com/app/pickup-sign/id6762237559
+
+/* SITE */
+Built with: HTML, CSS, JavaScript
+Fonts: General Sans (Fontshare)
+Last updated: 2026-04-16

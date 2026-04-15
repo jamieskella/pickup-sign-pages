@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "F98Q9S4P6T.com.pickupsign.app",
+        "paths": ["*"]
+      }
+    ]
+  }
+}

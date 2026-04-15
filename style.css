@@ -1000,3 +1000,67 @@
     text-align: center;
   }
 }
+
+/* ============================================================
+   LANDSCAPE PHONE MOCKUP
+   ============================================================ */
+.phone-mockup--landscape {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.phone-mockup__frame-landscape {
+  position: relative;
+  width: 420px;
+  height: 200px;
+  background: #1C1C1E;
+  border-radius: 20px;
+  padding: 6px;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.08),
+    0 20px 60px rgba(0,0,0,0.5),
+    inset 0 0 0 1px rgba(255,255,255,0.04);
+}
+.phone-mockup__notch-landscape {
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 52px;
+  background: #1C1C1E;
+  border-radius: 8px 0 0 8px;
+  z-index: 2;
+}
+.phone-mockup__screen-landscape {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.phone-mockup__name-landscape {
+  font-family: 'General Sans', sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  user-select: none;
+}
+
+@media (max-width: 767px) {
+  .phone-mockup__frame-landscape {
+    width: 320px;
+    height: 155px;
+    border-radius: 16px;
+  }
+  .phone-mockup__name-landscape {
+    font-size: 52px;
+  }
+  .phone-mockup__notch-landscape {
+    width: 14px;
+    height: 40px;
+  }
+}

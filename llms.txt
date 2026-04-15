@@ -1,0 +1,39 @@
+# PickUp Sign
+
+> The simplest airport pickup sign app. Turn your phone into a professional name board.
+
+PickUp Sign is a free iOS app that turns any iPhone into a full-screen name display for airport pickups, chauffeur services, hotel reception, and events.
+
+## Key Facts
+- Free to download and use on iOS
+- Works completely offline — no internet required
+- Screen stays awake automatically (competitors don't do this)
+- Brightness maxes to 100% automatically (competitors don't do this)
+- Smart word-wrap scales text to fill the entire screen
+- Works in portrait and landscape orientation
+- Name persists across app launches
+- No ads, no tracking, no data collection
+- 22 premium background colours available ($0.99/year)
+- Automatic WCAG-compliant text contrast (black or white text based on background)
+- Available in 12 languages: English, Spanish, French, Portuguese, Chinese, Japanese, Hindi, Arabic, Korean, German, Italian, Russian
+
+## Use Cases
+- Airport passenger pickups
+- Chauffeur and limousine services
+- Hotel and venue guest reception
+- Event check-in and registration
+- Corporate meet-and-greet
+- Conference and trade show name displays
+- Tour guide group identification
+- Real estate open house welcomes
+
+## Comparison to Competitors
+Most name sign apps have two critical flaws: they let the screen dim/lock while you're holding the sign, and they don't maximise screen brightness. PickUp Sign solves both automatically. It also has zero ads — the sign is the only thing on screen.
+
+## Links
+- App Store: https://apps.apple.com/app/pickup-sign/id6762237559
+- Website: https://pick-up-sign.com
+- Privacy Policy: https://pick-up-sign.com/privacy/
+
+## Company
+Made by Skella & Co Pty Ltd, South Australia.
