@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PickUp Sign — The simplest airport pickup sign app</title>
+  <meta name="description" content="Turn your phone into a professional airport pickup name board. Type a name, show it big. Screen stays awake, maximum brightness, works offline. Free on iOS.">
+  <meta name="keywords" content="pickup sign app, airport name board, chauffeur sign, meet and greet sign, digital name display, airport pickup sign, limo driver sign">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PickUp Sign — The simplest airport pickup sign">
+  <meta property="og:description" content="Turn your phone into a professional airport pickup name board. Type a name, show it big. Free on iOS.">
+  <meta property="og:url" content="https://pick-up-sign.com">
+  <meta property="og:site_name" content="PickUp Sign">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PickUp Sign — The simplest airport pickup sign">
+  <meta name="twitter:description" content="Turn your phone into a professional airport pickup name board. Type a name, show it big.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+
+  <!-- Fonts -->
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./base.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Schema.org SoftwareApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "PickUp Sign",
+    "description": "Turn your phone into a professional airport pickup name board. Type a name, show it big. Screen stays awake at maximum brightness. Works offline with smart word-wrap and 22 premium colours.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "iOS",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "AUD"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Skella & Co Pty Ltd",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "South Australia",
+        "addressCountry": "AU"
+      }
+    },
+    "url": "https://pick-up-sign.com",
+    "downloadUrl": "https://apps.apple.com/app/pickup-sign/id6762237559",
+    "softwareVersion": "1.0",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "1"
+    }
+  }
+  </script>
+
+  <!-- Schema.org FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does PickUp Sign work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Open the app, type a name, and tap Show. Your phone becomes a full-screen sign with the name displayed as large as possible. The screen stays awake and brightness is set to maximum automatically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does PickUp Sign work offline?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. PickUp Sign works completely offline with no internet connection required. Everything runs locally on your device."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will my screen stay on while showing a name?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. PickUp Sign automatically keeps your screen awake and sets brightness to maximum while displaying a name, so you never miss a pickup."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I change the background colour?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tap the colour picker icon at the bottom of the screen to choose from 22 premium background colours. The default black and white are free. Additional colours are available with the Colour Themes upgrade for $0.99/year."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What languages does PickUp Sign support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PickUp Sign supports 12 languages including English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, Chinese (Simplified and Traditional), Arabic, and Hindi. The app's smart word-wrap works with all supported scripts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is PickUp Sign free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, PickUp Sign is free to download and use. The core features — typing a name, full-screen display, screen-awake, and maximum brightness — are all free. The optional Colour Themes upgrade ($0.99/year) unlocks 22 premium background colours."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I restore my purchase?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Open the app, tap the colour picker icon, then tap Restore Purchases. Your Colour Themes unlock will be restored automatically via your Apple ID."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does PickUp Sign work on iPad?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. PickUp Sign works on iPad and takes full advantage of the larger screen to display names even bigger and more visibly."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is PickUp Sign available on Android?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not yet. PickUp Sign is currently available on iOS (iPhone and iPad). An Android version is coming soon."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does PickUp Sign collect my data?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. PickUp Sign collects absolutely no personal data. Names are stored only on your device and are never sent to any server. There are no analytics, no tracking, and no ads."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a href="#main" class="sr-only" style="position:absolute;top:0;left:0;padding:1rem;background:var(--color-accent);color:#000;z-index:999;">Skip to content</a>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a href="#" class="header__logo" aria-label="PickUp Sign home">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="4" width="28" height="24" rx="4" stroke="currentColor" stroke-width="2.5"/>
+          <rect x="8" y="12" width="16" height="3" rx="1.5" fill="#FFCB00"/>
+          <rect x="10" y="18" width="12" height="2.5" rx="1.25" fill="currentColor" opacity="0.4"/>
+        </svg>
+        <span class="header__wordmark">PickUp Sign</span>
+      </a>
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="#features" class="header__link">Features</a>
+        <a href="#colours" class="header__link">Colours</a>
+        <a href="#faq" class="header__link">FAQ</a>
+        <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="header__cta">
+          Download
+        </a>
+      </nav>
+      <button class="header__menu-btn" aria-label="Open menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <!-- Mobile nav -->
+    <div class="header__mobile-nav" id="mobileNav" hidden>
+      <a href="#features" class="header__mobile-link">Features</a>
+      <a href="#colours" class="header__mobile-link">Colours</a>
+      <a href="#faq" class="header__mobile-link">FAQ</a>
+      <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="header__mobile-link header__mobile-link--cta">Download on App Store</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <h1 id="hero-heading" class="hero__heading">
+            Your name.<br>Their screen.<br><span class="hero__heading--accent">Impossible to miss.</span>
+          </h1>
+          <p class="hero__sub">The simplest airport pickup sign. Type a name, show it big. Screen stays awake, brightness at max. Works offline.</p>
+          <div class="hero__actions">
+            <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="app-badge app-badge--ios" aria-label="Download on the App Store">
+              <svg viewBox="0 0 120 40" width="150" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Download on the App Store">
+                <rect width="120" height="40" rx="6" fill="#fff"/>
+                <g fill="#000">
+                  <path d="M24.77 20.3a4.95 4.95 0 0 1 2.36-4.15 5.07 5.07 0 0 0-3.99-2.16c-1.68-.18-3.31 1.01-4.17 1.01-.87 0-2.19-.99-3.62-.96a5.33 5.33 0 0 0-4.49 2.74c-1.93 3.34-.49 8.27 1.36 10.97.93 1.33 2.01 2.82 3.44 2.76 1.39-.06 1.91-.89 3.59-.89 1.66 0 2.14.89 3.59.86 1.49-.02 2.42-1.33 3.32-2.67a10.96 10.96 0 0 0 1.52-3.11 4.78 4.78 0 0 1-2.91-4.4z"/>
+                  <path d="M22.04 12.21a4.87 4.87 0 0 0 1.12-3.49 4.95 4.95 0 0 0-3.21 1.66 4.64 4.64 0 0 0-1.14 3.37 4.11 4.11 0 0 0 3.23-1.54z"/>
+                  <text x="37" y="15" font-family="'General Sans','Helvetica Neue',sans-serif" font-size="6.5" font-weight="400" fill="#000">Download on the</text>
+                  <text x="37" y="27" font-family="'General Sans','Helvetica Neue',sans-serif" font-size="12" font-weight="600" fill="#000">App Store</text>
+                </g>
+              </svg>
+            </a>
+            <div class="app-badge app-badge--android" aria-label="Google Play — Coming Soon">
+              <svg viewBox="0 0 135 40" width="168" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Get it on Google Play — Coming Soon">
+                <rect width="135" height="40" rx="6" fill="#fff" opacity="0.25"/>
+                <text x="67.5" y="22" text-anchor="middle" font-family="'General Sans','Helvetica Neue',sans-serif" font-size="8" font-weight="500" fill="#fff" opacity="0.5">Google Play — Soon</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="hero__mockups">
+          <!-- Phone mockup 1: Jamie on black -->
+          <div class="phone-mockup phone-mockup--hero">
+            <div class="phone-mockup__frame">
+              <div class="phone-mockup__notch"></div>
+              <div class="phone-mockup__screen" style="background:#000;">
+                <span class="phone-mockup__name" style="color:#fff;">Jamie</span>
+              </div>
+            </div>
+          </div>
+          <!-- Phone mockup 2: Welcome on yellow -->
+          <div class="phone-mockup phone-mockup--secondary">
+            <div class="phone-mockup__frame">
+              <div class="phone-mockup__notch"></div>
+              <div class="phone-mockup__screen" style="background:#FFCB00;">
+                <span class="phone-mockup__name" style="color:#000;">Welcome</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOW IT WORKS ==================== -->
+    <section class="how-it-works" id="how-it-works" aria-labelledby="how-heading">
+      <div class="container">
+        <h2 id="how-heading" class="section-heading">Three taps. That's it.</h2>
+        <div class="steps reveal-stagger">
+          <div class="step">
+            <div class="step__icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="12" y="4" width="24" height="40" rx="5" stroke="#FFCB00" stroke-width="2.5"/>
+                <circle cx="24" cy="38" r="2" fill="#FFCB00"/>
+                <circle cx="24" cy="24" r="6" fill="none" stroke="#FFCB00" stroke-width="2" stroke-dasharray="4 3"/>
+              </svg>
+            </div>
+            <div class="step__number">1</div>
+            <h3 class="step__title">Open</h3>
+            <p class="step__desc">Launch PickUp Sign. No login, no setup, no permissions.</p>
+          </div>
+          <div class="step__divider" aria-hidden="true">
+            <svg width="40" height="2" viewBox="0 0 40 2"><line x1="0" y1="1" x2="40" y2="1" stroke="#FFCB00" stroke-width="2" stroke-dasharray="6 4"/></svg>
+          </div>
+          <div class="step">
+            <div class="step__icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="8" y="14" width="32" height="22" rx="4" stroke="#FFCB00" stroke-width="2.5"/>
+                <line x1="14" y1="22" x2="26" y2="22" stroke="#FFCB00" stroke-width="2.5" stroke-linecap="round"/>
+                <rect x="28" y="20" width="2" height="6" fill="#FFCB00" opacity="0.6">
+                  <animate attributeName="opacity" values="0.6;1;0.6" dur="1.2s" repeatCount="indefinite"/>
+                </rect>
+              </svg>
+            </div>
+            <div class="step__number">2</div>
+            <h3 class="step__title">Type</h3>
+            <p class="step__desc">Enter the name. Smart word-wrap handles any length.</p>
+          </div>
+          <div class="step__divider" aria-hidden="true">
+            <svg width="40" height="2" viewBox="0 0 40 2"><line x1="0" y1="1" x2="40" y2="1" stroke="#FFCB00" stroke-width="2" stroke-dasharray="6 4"/></svg>
+          </div>
+          <div class="step">
+            <div class="step__icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="12" y="4" width="24" height="40" rx="5" stroke="#FFCB00" stroke-width="2.5"/>
+                <text x="24" y="28" text-anchor="middle" font-family="'General Sans',sans-serif" font-size="11" font-weight="700" fill="#FFCB00">Hi</text>
+                <!-- Brightness rays -->
+                <line x1="24" y1="0" x2="24" y2="3" stroke="#FFCB00" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                <line x1="36" y1="4" x2="34" y2="6.5" stroke="#FFCB00" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+                <line x1="12" y1="4" x2="14" y2="6.5" stroke="#FFCB00" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+              </svg>
+            </div>
+            <div class="step__number">3</div>
+            <h3 class="step__title">Show</h3>
+            <p class="step__desc">Full-screen display. Brightness maxed. Screen stays awake.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FEATURES ==================== -->
+    <section class="features" id="features" aria-labelledby="features-heading">
+      <div class="container">
+        <h2 id="features-heading" class="section-heading">Built for one job.<br><span class="text-accent">Does it perfectly.</span></h2>
+        <div class="features__grid reveal-stagger">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="16" cy="16" r="10" stroke="#FFCB00" stroke-width="2"/>
+                <circle cx="16" cy="16" r="4" fill="#FFCB00"/>
+                <line x1="16" y1="2" x2="16" y2="6" stroke="#FFCB00" stroke-width="2" stroke-linecap="round"/>
+                <line x1="16" y1="26" x2="16" y2="30" stroke="#FFCB00" stroke-width="2" stroke-linecap="round"/>
+                <line x1="2" y1="16" x2="6" y2="16" stroke="#FFCB00" stroke-width="2" stroke-linecap="round"/>
+                <line x1="26" y1="16" x2="30" y2="16" stroke="#FFCB00" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Screen stays awake</h3>
+            <p class="feature-card__desc">Your screen never dims or locks while showing a name. Hold it up as long as you need.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M16 4L20 12L28 13.5L22 19.5L23.5 28L16 24L8.5 28L10 19.5L4 13.5L12 12L16 4Z" stroke="#FFCB00" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Maximum brightness</h3>
+            <p class="feature-card__desc">Automatically cranks brightness to 100% so your sign is visible in any lighting.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M6 10H26M6 16H22M6 22H18" stroke="#FFCB00" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Smart word-wrap</h3>
+            <p class="feature-card__desc">Names scale to fill the screen. Long names automatically wrap and resize for maximum readability.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <path d="M16 6V16L22 22" stroke="#FFCB00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="16" cy="16" r="12" stroke="#FFCB00" stroke-width="2" stroke-dasharray="4 3"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">Works offline</h3>
+            <p class="feature-card__desc">No internet required. Ever. Works in airplane mode, underground, anywhere.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <circle cx="10" cy="22" r="5" fill="#FFCB00"/>
+                <circle cx="22" cy="22" r="5" fill="#E74C3C"/>
+                <circle cx="16" cy="12" r="5" fill="#3498DB"/>
+                <circle cx="16" cy="18" r="3" fill="#2ECC71"/>
+              </svg>
+            </div>
+            <h3 class="feature-card__title">22 premium colours</h3>
+            <p class="feature-card__desc">Choose from 22 curated background colours to match any brand, mood, or occasion.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== COLOUR THEMES ==================== -->
+    <section class="colours" id="colours" aria-labelledby="colours-heading">
+      <div class="container">
+        <div class="colours__layout reveal">
+          <div class="colours__content">
+            <h2 id="colours-heading" class="section-heading">Make it <span class="text-accent">yours.</span></h2>
+            <p class="colours__desc">Black and white come free. Unlock all 22 colours with the Colour Themes upgrade — just $0.99/year.</p>
+            <div class="colours__palette" aria-label="Sample of available colours">
+              <span class="colour-dot" style="background:#000" title="Black (free)"></span>
+              <span class="colour-dot" style="background:#fff;border:1px solid rgba(255,255,255,0.2);" title="White (free)"></span>
+              <span class="colour-dot" style="background:#FFCB00" title="Taxi Yellow"></span>
+              <span class="colour-dot" style="background:#E74C3C" title="Red"></span>
+              <span class="colour-dot" style="background:#3498DB" title="Blue"></span>
+              <span class="colour-dot" style="background:#2ECC71" title="Green"></span>
+              <span class="colour-dot" style="background:#9B59B6" title="Purple"></span>
+              <span class="colour-dot" style="background:#E67E22" title="Orange"></span>
+              <span class="colour-dot" style="background:#1ABC9C" title="Teal"></span>
+              <span class="colour-dot" style="background:#E91E63" title="Pink"></span>
+              <span class="colour-dot colour-dot--more">+12</span>
+            </div>
+          </div>
+          <div class="colours__mockup">
+            <!-- Phone with colour picker open -->
+            <div class="phone-mockup phone-mockup--colour">
+              <div class="phone-mockup__frame">
+                <div class="phone-mockup__notch"></div>
+                <div class="phone-mockup__screen" style="background:#3498DB;">
+                  <span class="phone-mockup__name" style="color:#fff;">Sarah</span>
+                  <div class="phone-mockup__picker">
+                    <div class="picker__row">
+                      <span class="picker__dot" style="background:#000"></span>
+                      <span class="picker__dot" style="background:#fff"></span>
+                      <span class="picker__dot picker__dot--active" style="background:#3498DB"></span>
+                      <span class="picker__dot" style="background:#E74C3C"></span>
+                      <span class="picker__dot" style="background:#2ECC71"></span>
+                      <span class="picker__dot" style="background:#FFCB00"></span>
+                      <span class="picker__dot" style="background:#9B59B6"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== USE CASES ==================== -->
+    <section class="use-cases" id="use-cases" aria-labelledby="usecases-heading">
+      <div class="container">
+        <h2 id="usecases-heading" class="section-heading">Not just airports.</h2>
+        <div class="use-cases__grid reveal-stagger">
+          <div class="use-case">
+            <div class="use-case__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M4 22L14 6L24 22H4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="14" cy="10" r="2" fill="#FFCB00"/></svg>
+            </div>
+            <h3 class="use-case__title">Airport pickups</h3>
+            <p class="use-case__desc">Stand at arrivals with their name blazing on your screen. Clear, bright, unmissable.</p>
+          </div>
+          <div class="use-case">
+            <div class="use-case__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="4" y="8" width="20" height="14" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="20" r="2" fill="#FFCB00"/><circle cx="18" cy="20" r="2" fill="#FFCB00"/><path d="M4 14H24" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h3 class="use-case__title">Chauffeur &amp; limo</h3>
+            <p class="use-case__desc">Professional drivers: ditch the paper signs. A clean digital display says premium service.</p>
+          </div>
+          <div class="use-case">
+            <div class="use-case__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><rect x="4" y="4" width="20" height="20" rx="3" stroke="currentColor" stroke-width="2"/><path d="M4 10H24" stroke="currentColor" stroke-width="1.5"/><circle cx="14" cy="17" r="3" fill="#FFCB00"/></svg>
+            </div>
+            <h3 class="use-case__title">Hotel reception</h3>
+            <p class="use-case__desc">Welcome VIP guests by name with a tablet at the front desk. Personal touch, zero effort.</p>
+          </div>
+          <div class="use-case">
+            <div class="use-case__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="M14 4L18 10H24L20 16L22 22L14 18L6 22L8 16L4 10H10L14 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+            </div>
+            <h3 class="use-case__title">Events</h3>
+            <p class="use-case__desc">Conferences, weddings, rallies — hold up a name or message that everyone can read.</p>
+          </div>
+          <div class="use-case">
+            <div class="use-case__icon">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true"><circle cx="14" cy="10" r="5" stroke="currentColor" stroke-width="2"/><path d="M6 24C6 20 9.58 17 14 17C18.42 17 22 20 22 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M18 8L22 4" stroke="#FFCB00" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="use-case__title">Meet &amp; greet</h3>
+            <p class="use-case__desc">Meeting someone for the first time? Show your name so they can find you.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== DEVICE MOCKUP SHOWCASE ==================== -->
+    <section class="showcase" aria-label="App screenshots">
+      <div class="container">
+        <div class="showcase__row reveal">
+          <div class="phone-mockup phone-mockup--showcase">
+            <div class="phone-mockup__frame">
+              <div class="phone-mockup__notch"></div>
+              <div class="phone-mockup__screen phone-mockup__screen--edit" style="background:#000;">
+                <div class="edit-view">
+                  <div class="edit-view__field">
+                    <span class="edit-view__text">Jamie</span>
+                    <span class="edit-view__cursor"></span>
+                  </div>
+                  <div class="edit-view__keyboard">
+                    <div class="kb-row"><span class="kb-key">Q</span><span class="kb-key">W</span><span class="kb-key">E</span><span class="kb-key">R</span><span class="kb-key">T</span><span class="kb-key">Y</span><span class="kb-key">U</span><span class="kb-key">I</span><span class="kb-key">O</span><span class="kb-key">P</span></div>
+                    <div class="kb-row"><span class="kb-key">A</span><span class="kb-key">S</span><span class="kb-key">D</span><span class="kb-key">F</span><span class="kb-key">G</span><span class="kb-key">H</span><span class="kb-key">J</span><span class="kb-key">K</span><span class="kb-key">L</span></div>
+                    <div class="kb-row"><span class="kb-key kb-key--shift">⇧</span><span class="kb-key">Z</span><span class="kb-key">X</span><span class="kb-key">C</span><span class="kb-key">V</span><span class="kb-key">B</span><span class="kb-key">N</span><span class="kb-key">M</span><span class="kb-key kb-key--del">⌫</span></div>
+                    <div class="kb-row kb-row--bottom"><span class="kb-key kb-key--space">space</span><span class="kb-key kb-key--go">Show</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ ==================== -->
+    <section class="faq" id="faq" aria-labelledby="faq-heading">
+      <div class="container container--narrow">
+        <h2 id="faq-heading" class="section-heading">Questions? Answered.</h2>
+        <div class="faq__list reveal">
+          <details class="faq__item">
+            <summary class="faq__question">How does PickUp Sign work?</summary>
+            <div class="faq__answer"><p>Open the app, type a name, and tap Show. Your phone becomes a full-screen sign with the name displayed as large as possible. The screen stays awake and brightness is set to maximum automatically.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Does it work offline?</summary>
+            <div class="faq__answer"><p>Yes. PickUp Sign works completely offline — no internet connection required. Everything runs locally on your device.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Will my screen stay on?</summary>
+            <div class="faq__answer"><p>Yes. Your screen stays awake and brightness is set to maximum while displaying a name. You never need to tap the screen to keep it alive.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">How do I change the background colour?</summary>
+            <div class="faq__answer"><p>Tap the colour picker icon at the bottom of the screen. Black and white are free. Unlock all 22 colours with the Colour Themes upgrade for $0.99/year.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">What languages does it support?</summary>
+            <div class="faq__answer"><p>PickUp Sign supports 12 languages including English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, Chinese (Simplified and Traditional), Arabic, and Hindi. Smart word-wrap works with all supported scripts.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Is PickUp Sign free?</summary>
+            <div class="faq__answer"><p>Yes. The core features — typing a name, full-screen display, screen-awake, and maximum brightness — are completely free. The optional Colour Themes upgrade ($0.99/year) unlocks 22 premium background colours.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">How do I restore my purchase?</summary>
+            <div class="faq__answer"><p>Open the app, tap the colour picker icon, then tap "Restore Purchases". Your unlock will be restored automatically via your Apple ID.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Does it work on iPad?</summary>
+            <div class="faq__answer"><p>Yes. PickUp Sign works on iPad and takes full advantage of the larger screen to display names even bigger and more visibly.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">What about Android?</summary>
+            <div class="faq__answer"><p>An Android version is coming soon. Sign up for our newsletter or follow us to be the first to know when it launches.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Does PickUp Sign collect my data?</summary>
+            <div class="faq__answer"><p>No. PickUp Sign collects absolutely no personal data. Names are stored only on your device and never sent to any server. There are no analytics, no tracking, and no ads. Read our <a href="./privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a> for full details.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FINAL CTA ==================== -->
+    <section class="final-cta" aria-label="Download call to action">
+      <div class="container">
+        <div class="final-cta__inner reveal">
+          <h2 class="final-cta__heading">Ready to never fumble<br>a pickup again?</h2>
+          <p class="final-cta__sub">Free on the App Store. No account needed.</p>
+          <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="app-badge app-badge--ios app-badge--large" aria-label="Download on the App Store">
+            <svg viewBox="0 0 120 40" width="180" height="60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Download on the App Store">
+              <rect width="120" height="40" rx="6" fill="#fff"/>
+              <g fill="#000">
+                <path d="M24.77 20.3a4.95 4.95 0 0 1 2.36-4.15 5.07 5.07 0 0 0-3.99-2.16c-1.68-.18-3.31 1.01-4.17 1.01-.87 0-2.19-.99-3.62-.96a5.33 5.33 0 0 0-4.49 2.74c-1.93 3.34-.49 8.27 1.36 10.97.93 1.33 2.01 2.82 3.44 2.76 1.39-.06 1.91-.89 3.59-.89 1.66 0 2.14.89 3.59.86 1.49-.02 2.42-1.33 3.32-2.67a10.96 10.96 0 0 0 1.52-3.11 4.78 4.78 0 0 1-2.91-4.4z"/>
+                <path d="M22.04 12.21a4.87 4.87 0 0 0 1.12-3.49 4.95 4.95 0 0 0-3.21 1.66 4.64 4.64 0 0 0-1.14 3.37 4.11 4.11 0 0 0 3.23-1.54z"/>
+                <text x="37" y="15" font-family="'General Sans','Helvetica Neue',sans-serif" font-size="6.5" font-weight="400" fill="#000">Download on the</text>
+                <text x="37" y="27" font-family="'General Sans','Helvetica Neue',sans-serif" font-size="12" font-weight="600" fill="#000">App Store</text>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="2" y="4" width="28" height="24" rx="4" stroke="currentColor" stroke-width="2.5"/>
+            <rect x="8" y="12" width="16" height="3" rx="1.5" fill="#FFCB00"/>
+            <rect x="10" y="18" width="12" height="2.5" rx="1.25" fill="currentColor" opacity="0.4"/>
+          </svg>
+          <span class="footer__company">Skella &amp; Co Pty Ltd</span>
+          <span class="footer__location">South Australia</span>
+        </div>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="./privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="mailto:support@pick-up-sign.com">Support</a>
+          <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer">App Store</a>
+        </nav>
+      </div>
+      <p class="footer__copy">&copy; 2025 Skella &amp; Co Pty Ltd. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
