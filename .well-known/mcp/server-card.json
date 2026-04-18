@@ -1,20 +1,20 @@
 {
-  "name": "PickUp Sign",
-  "description": "Airport pickup name display app. Free on iOS and Android. Screen stays awake, brightness maxed, works offline, no ads.",
-  "url": "https://pick-up-sign.com",
-  "capabilities": {
-    "resources": true
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v1.0",
+  "version": "1.0",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "PickUp Sign",
+    "version": "1.0.0",
+    "description": "Airport pickup name display app. Free on iOS and Android. Type a name, show it big. Screen stays awake, brightness maxed, works offline, no ads.",
+    "homepage": "https://pick-up-sign.com"
   },
-  "resources": [
-    {
-      "uri": "https://pick-up-sign.com/llms.txt",
-      "name": "App Information",
-      "mimeType": "text/plain"
-    },
-    {
-      "uri": "https://pick-up-sign.com/privacy/",
-      "name": "Privacy Policy",
-      "mimeType": "text/html"
-    }
-  ]
+  "transport": {
+    "type": "streamable-http",
+    "url": "https://pick-up-sign.com/llms.txt"
+  },
+  "capabilities": {
+    "tools": false,
+    "resources": true,
+    "prompts": false
+  }
 }

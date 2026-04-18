@@ -27,11 +27,18 @@ Allow: /
 
 Sitemap: https://pick-up-sign.com/sitemap.xml
 
-# Content Signal directives
-Content-Signal: ai-train=disallow
-Content-Signal: ai-input=allow
-Content-Signal: search=allow
-Content-Signal: ai-summarize=allow
+# Cloudflare Content Signals Policy
+# As a condition of accessing this website, you agree to these content signals:
+# (a) content-signal=yes means allowed for that use
+# (b) content-signal=no means not allowed for that use
+# Signals:
+# search - build a search index and show results
+# ai-input - use content as live input for AI answers
+# ai-train - train or fine-tune AI models
+
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+Allow: /
 
 # Language directories
 # /es/ /fr/ /pt/ /zh/ /ja/ /hi/ /ar/ /ko/ /de/ /it/ /ru/
