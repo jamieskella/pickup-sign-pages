@@ -1,0 +1,13 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://pick-up-sign.com/",
+      "describedby": [
+        {
+          "href": "https://pick-up-sign.com/llms.txt",
+          "type": "text/plain"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "PickUp Sign",
+  "description": "Airport pickup name display app. Free on iOS and Android. Screen stays awake, brightness maxed, works offline, no ads.",
+  "url": "https://pick-up-sign.com",
+  "capabilities": {
+    "resources": true
+  },
+  "resources": [
+    {
+      "uri": "https://pick-up-sign.com/llms.txt",
+      "name": "App Information",
+      "mimeType": "text/plain"
+    },
+    {
+      "uri": "https://pick-up-sign.com/privacy/",
+      "name": "Privacy Policy",
+      "mimeType": "text/html"
+    }
+  ]
+}

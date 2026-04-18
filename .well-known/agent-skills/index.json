@@ -1,0 +1,20 @@
+{
+  "$schema": "https://open-agent-skills.org/schema/v1",
+  "skills": [
+    {
+      "id": "pickup-sign-info",
+      "name": "PickUp Sign App Information",
+      "description": "Get information about the PickUp Sign airport pickup name display app, including features, pricing, supported languages, and download links.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Question about the PickUp Sign app"
+          }
+        }
+      },
+      "resourceUrl": "https://pick-up-sign.com/llms.txt"
+    }
+  ]
+}

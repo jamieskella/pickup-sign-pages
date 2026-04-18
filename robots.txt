@@ -27,5 +27,11 @@ Allow: /
 
 Sitemap: https://pick-up-sign.com/sitemap.xml
 
+# Content Signal directives
+Content-Signal: ai-train=disallow
+Content-Signal: ai-input=allow
+Content-Signal: search=allow
+Content-Signal: ai-summarize=allow
+
 # Language directories
 # /es/ /fr/ /pt/ /zh/ /ja/ /hi/ /ar/ /ko/ /de/ /it/ /ru/
