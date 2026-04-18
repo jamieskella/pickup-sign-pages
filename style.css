@@ -323,6 +323,7 @@
 .app-badge svg { display: block; }
 .app-badge--ios:hover svg rect { fill: #f0f0f0; }
 .app-badge--android { display: inline-flex; align-items: center; }
+.app-badge--android img { display: block; max-height: 50px; width: auto; }
 
 
 /* Mockups in hero */
