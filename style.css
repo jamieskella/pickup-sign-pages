@@ -322,7 +322,8 @@
 .app-badge { display: inline-flex; }
 .app-badge svg { display: block; }
 .app-badge--ios:hover svg rect { fill: #f0f0f0; }
-.app-badge--android { opacity: 0.4; cursor: default; }
+.app-badge--android { display: inline-flex; align-items: center; }
+.app-badge--android img { margin: -10px -12px; /* Google's badge PNG has built-in padding */ }
 
 /* Mockups in hero */
 .hero__mockups {
