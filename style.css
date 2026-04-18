@@ -322,10 +322,7 @@
 .app-badge { display: inline-flex; }
 .app-badge svg { display: block; }
 .app-badge--ios:hover svg rect { fill: #f0f0f0; }
-.app-badge--android { display: inline-flex; align-items: center; overflow: hidden; }
-.app-badge--android img { height: 74px !important; margin: -12px -16px; /* Google's badge PNG has built-in padding */ }
-.app-badge--large .app-badge--android img,
-.app-badge--android.app-badge--large img { height: 88px !important; margin: -14px -18px; }
+.app-badge--android { display: inline-flex; align-items: center; }
 
 /* Mockups in hero */
 .hero__mockups {
