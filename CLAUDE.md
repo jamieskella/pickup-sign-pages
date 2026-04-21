@@ -172,7 +172,8 @@ Tongue-in-cheek humour with intentionally varied literacy levels — missing apo
 - "A Skella & Co Project" (not "Skella & Co Pty Ltd")
 - No Support link
 - Dynamic copyright year via inline JS
-- **Both the company line and the copyright line link to `https://skella.com.au/`** (opens in a new tab). The link wraps the full translated phrase in `footer__company` and the "Skella & Co Pty Ltd" text in `footer__copy`. The same linking applies on the privacy page, including the Section 9 contact block. When regenerating locale pages, these wrappers survive the i18n script's text-only regex replacement — do not strip them.
+- **Brand phrases do NOT get translated.** "A Skella & Co Project" and "Skella & Co Pty Ltd" stay in English across every locale — they are brand/company names, not copy. The i18n generator does NOT rewrite the footer company line; translation JSON files no longer contain a `footer_company` key.
+- **Both brand phrases link to `https://skella.com.au/`** (opens in a new tab). The `footer__company` span wraps "A Skella & Co Project" in an anchor, and the `footer__copy` paragraph wraps "Skella & Co Pty Ltd" in an anchor. The privacy page applies the same pattern, including the Section 9 contact block. These wrappers survive regeneration — do not strip them.
 
 ### Phone mockup name formats
 
