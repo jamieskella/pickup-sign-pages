@@ -332,6 +332,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://pick-up-sign.com/it-it/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/es-es/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/en-us/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://pick-up-sign.com/airport-pickup-sign/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
