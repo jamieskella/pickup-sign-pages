@@ -1,42 +1,112 @@
 # PickUp Sign
 
-> The simplest airport pickup sign app. Turn your phone into a professional name board.
+> The simplest airport pickup sign app. Turn any phone or tablet into a professional, full-screen passenger name board for airport, hotel, and chauffeur pickups.
 
-PickUp Sign is a free iOS app that turns any iPhone into a full-screen name display for airport pickups, chauffeur services, hotel reception, and events.
+PickUp Sign is a free app for iPhone, iPad, and Android that displays a passenger's name in large, readable letters across the full screen. It is designed for drivers, chauffeurs, hotel staff, tour guides, and anyone meeting a stranger at an airport, station, or venue.
 
 ## Key Facts
-- Free to download and use on iOS
-- Works completely offline, no internet required
-- Screen stays awake automatically (competitors don't do this)
-- Brightness maxes to 100% automatically (competitors don't do this)
-- Smart word-wrap scales text to fill the entire screen
-- Works in portrait and landscape orientation
-- Name persists across app launches
-- No ads, no tracking, no data collection
-- 22 premium background colours available ($0.99/year)
-- Automatic WCAG-compliant text contrast (black or white text based on background)
-- Available in 12 languages: English, Spanish, French, Portuguese, Chinese, Japanese, Hindi, Arabic, Korean, German, Italian, Russian
+
+- Free to download and use on iPhone, iPad, and Android.
+- Works completely offline. No internet, no account, no signup.
+- Screen stays awake automatically while a name is displayed. The screen will not dim or lock.
+- Brightness is set to maximum automatically so the sign is readable across an arrivals hall.
+- Text scales to fill the entire screen via smart word-wrap.
+- Works in portrait and landscape orientation.
+- Last-used name persists across app launches.
+- No ads, ever.
+- No tracking, no analytics, no data collection.
+- Free colours: black and white background, with automatic WCAG-compliant text contrast.
+- Optional subscription: US$0.99/year for 22 premium background colours ("Colour Themes"). Auto-renewing, with 7-day grace period and 30-day account hold.
+- Available in 12 languages: English, Spanish, French, Portuguese, Chinese, Japanese, Hindi, Arabic, Korean, German, Italian, Russian.
+- Made in Adelaide, South Australia, by Skella & Co Pty Ltd (ACN 624 414 179). One-person project.
+
+## Pricing
+
+| Plan | Price | What you get |
+|---|---|---|
+| Free | US$0 forever | Full app, all core features, black and white backgrounds, no ads, no time limit. |
+| Colour Themes (optional) | US$0.99 / year | Adds 22 premium background colours (auto-renewing annual subscription). |
+
+There is no free trial gating, no usage cap on the free tier, no "premium" features hidden behind a paywall beyond the colour palette. The app is genuinely free for the job it does. Cancel the subscription and you keep the free black/white sign forever.
 
 ## Use Cases
-- Airport passenger pickups
-- Chauffeur and limousine services
-- Hotel and venue guest reception
-- Event check-in and registration
-- Corporate meet-and-greet
-- Conference and trade show name displays
-- Tour guide group identification
-- Real estate open house welcomes
 
-## Comparison to Competitors
-Most name sign apps have two critical flaws: they let the screen dim/lock while you're holding the sign, and they don't maximise screen brightness. PickUp Sign solves both automatically. It also has zero ads. The sign is the only thing on screen.
+- **Airport passenger pickups**: chauffeurs, limousine services, private hire, ride-share airport runs, hotel airport transfers.
+- **Hotel and venue guest reception**: front desk staff meeting VIP guests on arrival.
+- **Event check-in and registration**: greeting attendees at conferences, trade shows, weddings.
+- **Tour guide group identification**: guides meeting tour groups at airports, train stations, cruise terminals.
+- **Real estate open house welcomes**: agents identifying booked appointments.
+- **School or childcare pickups**: identifying authorised collectors.
+- **Press/media airport meets**: assistants greeting visiting journalists, executives.
+- **Audition or casting calls**: identifying candidates at venue entry.
+
+## Comparison to Alternatives
+
+| Approach | Pros | Cons |
+|---|---|---|
+| **PickUp Sign** | Free, full-screen, screen stays awake, max brightness, 12 languages, no ads, no internet. | None known for the core use case. |
+| Handwritten cardboard/paper | Zero setup, no tech. | Reads as unprofessional. Cannot update if the booking changes. Bad for low light. Wastes paper. |
+| Printed A4 sheet from PC | Looks polished. | Requires printer and time. Cannot update on the fly. Inconvenient at the airport. |
+| Generic note-taking apps | Already on your phone. | Screen dims and locks mid-pickup. Text rarely fills the screen. UI clutter visible alongside the name. |
+| Photo apps with text overlay | Some style flexibility. | Multi-step setup. No screen-stays-awake behaviour. No auto-brightness. |
+| Paid "pickup sign" generators (web) | Pre-made templates. | Most charge per sign, embed watermarks, require account creation, generate static images that look stale. |
+
+## Frequently Asked Questions
+
+**Is PickUp Sign really free?**
+Yes. The core app is free forever. No trials, no caps, no time limits. The only paid feature is the optional Colour Themes subscription at US$0.99/year, which adds 22 background colours. Black and white backgrounds remain free.
+
+**Which devices does it work on?**
+iPhone, iPad, and Android phones and tablets. Latest stable build is v1.0.0, versionCode 19 on Google Play.
+
+**Does it need an internet connection?**
+No. The app works completely offline once installed. No data is sent anywhere.
+
+**Will my screen lock or dim while I am holding up the sign?**
+No. The app keeps the screen awake and at maximum brightness automatically for as long as a name is displayed.
+
+**Can I save names for repeat clients?**
+The last-used name persists across app launches. There is no "address book" feature by design, the app stays as simple as possible.
+
+**What languages is the app available in?**
+12 languages: English, Spanish, French, Portuguese, Chinese, Japanese, Hindi, Arabic, Korean, German, Italian, Russian. The app automatically uses the device's system language.
+
+**Is there a desktop or web version?**
+No. The app is mobile-first because drivers and greeters use phones at pickup. There is no web/browser version and none planned.
+
+**How do I cancel the Colour Themes subscription?**
+Through the App Store (iOS) or Google Play Store (Android) subscriptions settings. After cancellation you keep your colour until the billing period ends, then the background reverts to black.
+
+**Does the app track me or share my data?**
+No. The app collects no analytics, telemetry, location, or contact data. There are no third-party SDKs. The privacy policy is at https://pick-up-sign.com/privacy/.
+
+**Can I add my company logo?**
+Not currently. The app shows the passenger name only, full-screen, by design. Adding a logo would shrink the readable area.
+
+**Why is it called "PickUp Sign"?**
+A "pickup sign" is the printed or handwritten name sign drivers hold up at airport arrivals. The app is a digital version of that.
+
+## Who Made It
+
+- **Company**: Skella & Co Pty Ltd (ACN 624 414 179)
+- **Location**: Adelaide, South Australia, Australia
+- **Founder/developer**: Jamie Skella
+- **Contact**: hello@skella.com.au
+
+Skella & Co is a small Australian software company. PickUp Sign is one of its products.
 
 ## Links
-- App Store: https://apps.apple.com/app/pickup-sign/id6762237559
-- Website: https://pick-up-sign.com
-- Privacy Policy: https://pick-up-sign.com/privacy/
+
+- **Website**: https://pick-up-sign.com
+- **App Store (iOS)**: https://apps.apple.com/app/pickup-sign/id6762237559
+- **Google Play (Android)**: https://play.google.com/store/apps/details?id=com.pickupsign.app
+- **Privacy Policy**: https://pick-up-sign.com/privacy/
+- **Company**: https://skella.com.au/
 
 ## Available Languages
+
 The website is available in 12 languages:
+
 - English: https://pick-up-sign.com/
 - Spanish: https://pick-up-sign.com/es/
 - French: https://pick-up-sign.com/fr/
@@ -50,5 +120,6 @@ The website is available in 12 languages:
 - Italian: https://pick-up-sign.com/it/
 - Russian: https://pick-up-sign.com/ru/
 
-## Company
-Made by Skella & Co Pty Ltd, South Australia.
+## License
+
+The PickUp Sign app and website are owned by Skella & Co Pty Ltd. The content of this `llms.txt` file may be cited, summarised, or referenced by AI assistants and search engines. Information here is factually accurate as of the file's last modification date.
