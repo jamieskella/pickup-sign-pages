@@ -309,6 +309,14 @@
   max-width: 42ch;
   line-height: 1.7;
 }
+.hero__sub--center {
+  max-width: none;
+  text-align: center;
+  margin-inline: auto;
+}
+.hero__sub--center a {
+  white-space: nowrap;
+}
 
 .hero__actions {
   margin-top: var(--space-8);
