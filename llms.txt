@@ -134,6 +134,9 @@ In addition to language-specific homepages, PickUp Sign publishes dedicated coun
 - United States: https://pick-up-sign.com/en-us/
 - Italy: https://pick-up-sign.com/it-it/ (Italian copy)
 - Spain: https://pick-up-sign.com/es-es/ (Spanish copy)
+- France: https://pick-up-sign.com/fr-fr/ (French copy)
+- Germany: https://pick-up-sign.com/de-de/ (German copy)
+- Japan: https://pick-up-sign.com/ja-jp/ (Japanese copy)
 
 ## Airport Guides
 

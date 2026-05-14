@@ -350,6 +350,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://pick-up-sign.com/fr-fr/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/de-de/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://pick-up-sign.com/ja-jp/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://pick-up-sign.com/airport-pickup-sign/</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
