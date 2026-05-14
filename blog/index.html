@@ -1,36 +1,140 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blog | PickUp Sign</title>
-<meta name="description" content="Articles for chauffeurs, drivers, and anyone meeting people at airports.">
-<link rel="canonical" href="https://pick-up-sign.com/blog/">
-<link rel="stylesheet" href="/base.css">
-<link rel="stylesheet" href="/style.css">
-<link rel="stylesheet" href="/page.css">
-<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap">
+  <title>Blog | PickUp Sign</title>
+  <meta name="description" content="Articles for chauffeurs, drivers, and anyone meeting people at airports.">
+  <link rel="canonical" href="https://pick-up-sign.com/blog/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Blog | PickUp Sign">
+  <meta property="og:description" content="Articles for chauffeurs, drivers, and anyone meeting people at airports.">
+  <meta property="og:url" content="https://pick-up-sign.com/blog/">
+  <meta property="og:image" content="https://pick-up-sign.com/og-image-v2.png">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/base.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<header class="header"><div class="container header__inner">
-<a href="/" class="header__logo" aria-label="PickUp Sign"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#FFCB00"/><path d="M11 8h6.5a4.5 4.5 0 0 1 0 9H14v7h-3V8zm3 3v3h3.5a1.5 1.5 0 0 0 0-3H14z" fill="#0A0A0A"/></svg><span class="header__wordmark">PickUp Sign</span></a>
-</div></header>
-<main>
-<section class="hero"><div class="container hero__inner">
-<h1 class="hero__heading">Blog</h1>
-<p class="hero__sub">Articles for chauffeurs, drivers, and anyone meeting people at airports.</p>
-</div></section>
-<section class="usecases"><div class="container container--narrow"><ul class="bullet-list">
-<li><a href="/blog/chauffeur-professionalism/">Looking professional as a chauffeur: the small details that matter</a></li>
-<li><a href="/blog/pickup-sign-etiquette/">Pickup sign etiquette: what to write, what not to write</a></li>
-<li><a href="/blog/best-apps-for-airport-chauffeurs-2026/">Best apps for airport chauffeurs in 2026</a></li>
-</ul></div></section>
-</main>
-<footer class="footer"><div class="container footer__inner">
-<p class="footer__company"><a href="https://skella.com.au/" target="_blank" rel="noopener">A Skella & Co Project</a></p>
-<p class="footer__copy">&copy; <span id="copyright-year">2026</span> Skella &amp; Co Pty Ltd</p>
-<p><a href="/privacy/" class="footer__privacy">Privacy Policy</a></p>
-</div></footer>
-<script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
-</body></html>
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a href="/" class="header__logo" aria-label="PickUp Sign home">
+        <img src="/app-icon.png" alt="PickUp Sign" width="32" height="32" style="border-radius:7px;">
+        <span class="header__wordmark">PickUp Sign</span>
+      </a>
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="/#features" class="header__link">Features</a>
+        <a href="/#colours" class="header__link">Colours</a>
+        <a href="/#faq" class="header__link">FAQ</a>
+      </nav>
+
+      <div class="lang-switch">
+        <button class="lang-switch__btn" aria-label="Language" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span>English</span>
+        </button>
+        <div class="lang-switch__dropdown" hidden>
+          <a href="/" class="active">English</a>
+          <a href="/es/">Español</a>
+          <a href="/fr/">Français</a>
+          <a href="/pt/">Português</a>
+          <a href="/zh/">中文</a>
+          <a href="/ja/">日本語</a>
+          <a href="/hi/">हिन्दी</a>
+          <a href="/ar/">العربية</a>
+          <a href="/ko/">한국어</a>
+          <a href="/de/">Deutsch</a>
+          <a href="/it/">Italiano</a>
+          <a href="/ru/">Русский</a>
+          <a href="/no/">Norsk</a>
+          <a href="/hr/">Hrvatski</a>
+        </div>
+      </div>
+      <button class="header__menu-btn" aria-label="Open menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="header__mobile-nav" id="mobileNav" hidden>
+      <a href="/#features" class="header__mobile-link">Features</a>
+      <a href="/#colours" class="header__mobile-link">Colours</a>
+      <a href="/#faq" class="header__mobile-link">FAQ</a>
+      <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="header__mobile-link header__mobile-link--cta">Download on App Store</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <h1 class="hero__heading">PickUp Sign<br><span class="hero__heading--accent">blog.</span></h1>
+          <p class="hero__sub">Articles for chauffeurs, drivers, and anyone meeting people at airports.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="use-cases">
+      <div class="container">
+        <div class="use-cases__grid">
+          <a href="/blog/chauffeur-professionalism/" class="use-case">
+            <h3 class="use-case__title">Looking professional as a chauffeur</h3>
+            <p class="use-case__desc">The small details that quietly separate a polished chauffeur from a forgettable one.</p>
+          </a>
+          <a href="/blog/pickup-sign-etiquette/" class="use-case">
+            <h3 class="use-case__title">Pickup sign etiquette</h3>
+            <p class="use-case__desc">What to write on a passenger pickup sign, what to leave off, and the common mistakes drivers make.</p>
+          </a>
+          <a href="/blog/best-apps-for-airport-chauffeurs-2026/" class="use-case">
+            <h3 class="use-case__title">Best apps for airport chauffeurs in 2026</h3>
+            <p class="use-case__desc">An honest, opinion-led review of the apps that genuinely help at airports.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <div class="final-cta__inner">
+          <h2 class="final-cta__heading">Free on the App Store and Google Play.<br>No account needed.</h2>
+          <div class="hero__actions">
+            <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="app-badge app-badge--ios app-badge--large" aria-label="Download on the App Store">
+              <img src="/app-store-badge.svg" alt="Download on the App Store" height="50">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.pickupsign.app" target="_blank" rel="noopener noreferrer" class="app-badge app-badge--android app-badge--large" aria-label="Get it on Google Play">
+              <img src="/google-play-badge-trimmed.png" alt="Get it on Google Play" height="50">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__company"><a href="https://skella.com.au/" target="_blank" rel="noopener noreferrer">A Skella &amp; Co Project</a></span>
+        </div>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer">App Store</a>
+        </nav>
+      </div>
+      <p class="footer__copy">&copy; <script>document.write(new Date().getFullYear())</script> Skella &amp; Co Pty Ltd</p>
+    </div>
+  </footer>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

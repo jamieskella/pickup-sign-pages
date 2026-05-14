@@ -1228,3 +1228,56 @@
     height: 40px;
   }
 }
+
+/* ============================================================
+   ARTICLE-BODY (blog posts, long-form content pages)
+   Used on /blog/* and any page that ships a long-form <article>.
+   Inherits design tokens; do not duplicate the FAQ or hero typography.
+   ============================================================ */
+.article-body {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+.article-body h2 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  margin: var(--space-10) 0 var(--space-4);
+  line-height: 1.2;
+}
+.article-body h2:first-child {
+  margin-top: 0;
+}
+.article-body p {
+  margin: 0 0 var(--space-4);
+}
+.article-body ul {
+  list-style: disc;
+  padding-left: var(--space-6);
+  margin: 0 0 var(--space-4);
+}
+.article-body li {
+  margin: var(--space-2) 0;
+}
+.article-body a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: opacity 0.15s ease;
+}
+.article-body a:hover {
+  opacity: 0.85;
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+/* Article hero: smaller than the home hero (long blog titles look comically large at hero__heading scale). */
+.hero__heading--article {
+  font-size: clamp(1.875rem, 1rem + 3vw, 3rem);
+  line-height: 1.15;
+}

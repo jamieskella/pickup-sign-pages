@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Free Pickup Sign App for New Zealand | iPhone, iPad & Android | PickUp Sign</title>
   <meta name="description" content="Free pickup sign app for Auckland, Christchurch, Wellington, and Queenstown airports.">
-
   <link rel="canonical" href="https://pick-up-sign.com/en-nz/">
   <link rel="alternate" href="https://pick-up-sign.com/en-nz/" hreflang="en-nz">
   <link rel="alternate" href="https://pick-up-sign.com/" hreflang="x-default">
@@ -22,137 +19,186 @@
   <meta name="twitter:description" content="Free pickup sign app for Auckland, Christchurch, Wellington, and Queenstown airports.">
   <meta name="twitter:image" content="https://pick-up-sign.com/og-image-v2.png">
 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#0A0A0A">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/base.css">
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/page.css">
 
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":'PickUp Sign for New Zealand drivers and chauffeurs',"url":'https://pick-up-sign.com/en-nz/',"inLanguage":"en","isPartOf":{"@type":"WebSite","url":"https://pick-up-sign.com/","name":"PickUp Sign"},"about":{"@type":"Country","name":'New Zealand',"identifier":'NZ'},"description":'Free pickup sign app for Auckland, Christchurch, Wellington, and Queenstown airports.'}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PickUp Sign","item":"https://pick-up-sign.com/"},{"@type":"ListItem","position":2,"name":'New Zealand',"item":'https://pick-up-sign.com/en-nz/'}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":'PickUp Sign for New Zealand',"url":'https://pick-up-sign.com/en-nz/',"inLanguage":"en","isPartOf":{"@type":"WebSite","url":"https://pick-up-sign.com/","name":"PickUp Sign"},"about":{"@type":"Country","name":'New Zealand',"identifier":'NZ'},"description":'Free pickup sign app for Auckland, Christchurch, Wellington, and Queenstown airports.'}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"PickUp Sign","item":"https://pick-up-sign.com/"},{"@type":"ListItem","position":2,"name":'New Zealand',"item":'https://pick-up-sign.com/en-nz/']}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":'Is PickUp Sign free in New Zealand?',"acceptedAnswer":{"@type":"Answer","text":'Yes. The core app is free forever in New Zealand and everywhere. There are no ads, no trials, no time limits. The optional Colour Themes upgrade is US$0.99 per year if you want premium background colours.'}},{"@type":"Question","name":'Does it work without internet at the airport?',"acceptedAnswer":{"@type":"Answer","text":'Yes. PickUp Sign is fully offline. No mobile data, no Wi-Fi, no airport network required. Type the name, hold the screen up.'}},{"@type":"Question","name":'What devices does it run on?',"acceptedAnswer":{"@type":"Answer","text":'iPhone, iPad, and Android phones and tablets. Free on the App Store and Google Play.'}},{"@type":"Question","name":'Will my screen stay awake while I am holding it up?',"acceptedAnswer":{"@type":"Answer","text":'Yes. The app keeps the screen on at maximum brightness automatically the entire time a name is displayed.'}}]}</script>
 </head>
 <body>
-  <header class="header">
-    <div class="container header__inner">
+  <header class="header" id="header">
+    <div class="header__inner container">
       <a href="/" class="header__logo" aria-label="PickUp Sign home">
-        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="32" height="32" rx="6" fill="#FFCB00"/>
-          <path d="M11 8h6.5a4.5 4.5 0 0 1 0 9H14v7h-3V8zm3 3v3h3.5a1.5 1.5 0 0 0 0-3H14z" fill="#0A0A0A"/>
-        </svg>
+        <img src="/app-icon.png" alt="PickUp Sign" width="32" height="32" style="border-radius:7px;">
         <span class="header__wordmark">PickUp Sign</span>
       </a>
-      <nav class="header__nav" aria-label="Primary">
-        <a href="/" class="header__link">Home</a>
+      <nav class="header__nav" aria-label="Main navigation">
+        <a href="/#features" class="header__link">Features</a>
+        <a href="/#colours" class="header__link">Colours</a>
         <a href="/#faq" class="header__link">FAQ</a>
       </nav>
+
+      <div class="lang-switch">
+        <button class="lang-switch__btn" aria-label="Language" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          <span>English</span>
+        </button>
+        <div class="lang-switch__dropdown" hidden>
+          <a href="/" class="active">English</a>
+          <a href="/es/">Español</a>
+          <a href="/fr/">Français</a>
+          <a href="/pt/">Português</a>
+          <a href="/zh/">中文</a>
+          <a href="/ja/">日本語</a>
+          <a href="/hi/">हिन्दी</a>
+          <a href="/ar/">العربية</a>
+          <a href="/ko/">한국어</a>
+          <a href="/de/">Deutsch</a>
+          <a href="/it/">Italiano</a>
+          <a href="/ru/">Русский</a>
+          <a href="/no/">Norsk</a>
+          <a href="/hr/">Hrvatski</a>
+        </div>
+      </div>
+      <button class="header__menu-btn" aria-label="Open menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+    <div class="header__mobile-nav" id="mobileNav" hidden>
+      <a href="/#features" class="header__mobile-link">Features</a>
+      <a href="/#colours" class="header__mobile-link">Colours</a>
+      <a href="/#faq" class="header__mobile-link">FAQ</a>
+      <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="header__mobile-link header__mobile-link--cta">Download on App Store</a>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero__inner">
-        <h1 class="hero__heading">PickUp Sign for New Zealand drivers and chauffeurs</h1>
-        <p class="hero__sub">Free pickup sign app for Auckland, Christchurch, Wellington, and Queenstown airports.</p>
-        <p class="hero__sub">New Zealand's tourism rebound has the chauffeur trade busier than it has been in years. PickUp Sign was built by a small Australasian company for exactly this kind of work, no ads, no internet required, free at the core. Use it on any iPhone, iPad, or Android device.</p>
-        <div class="hero__actions">
-          <a href="https://apps.apple.com/app/pickup-sign/id6762237559" class="app-badge app-badge--ios app-badge--large" aria-label="Download on the App Store">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="135" height="50" aria-hidden="true"><rect width="120" height="40" rx="6" fill="#000"/><text x="60" y="25" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#fff" text-anchor="middle">Download on the App Store</text></svg>
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.pickupsign.app" class="app-badge app-badge--android app-badge--large" aria-label="Get it on Google Play">
-            <img src="/google-play-badge-trimmed.png" alt="Get it on Google Play">
-          </a>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__inner container">
+        <div class="hero__content">
+          <h1 id="hero-heading" class="hero__heading">
+            PickUp Sign for<br><span class="hero__heading--accent">New Zealand drivers<br>and chauffeurs.</span>
+          </h1>
+          <p class="hero__sub">Free pickup sign app for Auckland, Christchurch, Wellington, and Queenstown airports.</p>
+          <p class="hero__sub">New Zealand's tourism rebound has the chauffeur trade busier than it has been in years. PickUp Sign was built by a small Australasian company for exactly this kind of work, no ads, no internet required, free at the core. Use it on any iPhone, iPad, or Android device.</p>
+          <div class="hero__actions">
+            <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="app-badge app-badge--ios app-badge--large" aria-label="Download on the App Store">
+              <img src="/app-store-badge.svg" alt="Download on the App Store" height="50">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.pickupsign.app" target="_blank" rel="noopener noreferrer" class="app-badge app-badge--android app-badge--large" aria-label="Get it on Google Play">
+              <img src="/google-play-badge-trimmed.png" alt="Get it on Google Play" height="50">
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="features" id="why">
+    <section class="features">
       <div class="container">
-        <h2 class="section__heading">Why drivers in New Zealand are switching.</h2>
-        <div class="feature-grid">
-    <div class="feature">
-      <h3 class="feature__title">Auckland to Queenstown</h3>
-      <p class="feature__desc">Works the same at every NZ airport. International or domestic, every terminal, every hall. Type, hold it up.</p>
-    </div>
-    <div class="feature">
-      <h3 class="feature__title">No data roaming worries</h3>
-      <p class="feature__desc">Fully offline. Useful for drivers picking up just-landed international visitors who do not have an NZ SIM yet.</p>
-    </div>
-    <div class="feature">
-      <h3 class="feature__title">Free, with optional polish</h3>
-      <p class="feature__desc">Black and white free forever. 22 premium background colours for US$0.99/year if you want to colour-match a tour group or client brand.</p>
-    </div>
+        <h2 class="section-heading">Why drivers in New Zealand<br><span class="text-accent">are switching.</span></h2>
+        <div class="features__grid">
+          <div class="feature-card">
+            <h3 class="feature-card__title">Auckland to Queenstown</h3>
+            <p class="feature-card__desc">Works the same at every NZ airport. International or domestic, every terminal, every hall. Type, hold it up.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-card__title">No data roaming worries</h3>
+            <p class="feature-card__desc">Fully offline. Useful for drivers picking up just-landed international visitors who do not have an NZ SIM yet.</p>
+          </div>
+          <div class="feature-card">
+            <h3 class="feature-card__title">Free, with optional polish</h3>
+            <p class="feature-card__desc">Black and white free forever. 22 premium background colours for US$0.99/year if you want to colour-match a tour group or client brand.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="usecases">
+    <section class="use-cases">
       <div class="container">
-        <h2 class="section__heading">Real New Zealand use cases.</h2>
-        <div class="usecase-grid">
-    <div class="usecase">
-      <h3 class="usecase__title">Tour group meet, Christchurch International</h3>
-      <p class="usecase__desc">Lead guide holding up the group name, every member can spot it from the customs exit.</p>
-    </div>
-    <div class="usecase">
-      <h3 class="usecase__title">Private transfer, Queenstown to Wanaka</h3>
-      <p class="usecase__desc">Pre-load the client name during the drive in, hold up the phone at arrivals, drive out.</p>
-    </div>
+        <h2 class="section-heading">Real New Zealand use cases.</h2>
+        <div class="use-cases__grid">
+          <div class="use-case">
+            <h3 class="use-case__title">Tour group meet, Christchurch International</h3>
+            <p class="use-case__desc">Lead guide holding up the group name, every member can spot it from the customs exit.</p>
+          </div>
+          <div class="use-case">
+            <h3 class="use-case__title">Private transfer, Queenstown to Wanaka</h3>
+            <p class="use-case__desc">Pre-load the client name during the drive in, hold up the phone at arrivals, drive out.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="faq">
-      <div class="container container--narrow">
-        <h2 class="section__heading">Frequently asked.</h2>
-    <details class="faq__item">
-      <summary class="faq__question">Is PickUp Sign free in New Zealand?</summary>
-      <p class="faq__answer">Yes. The core app is free forever in New Zealand and everywhere. There are no ads, no trials, no time limits. The optional Colour Themes upgrade is US$0.99 per year if you want premium background colours.</p>
-    </details>
-    <details class="faq__item">
-      <summary class="faq__question">Does it work without internet at the airport?</summary>
-      <p class="faq__answer">Yes. PickUp Sign is fully offline. No mobile data, no Wi-Fi, no airport network required. Type the name, hold the screen up.</p>
-    </details>
-    <details class="faq__item">
-      <summary class="faq__question">What devices does it run on?</summary>
-      <p class="faq__answer">iPhone, iPad, and Android phones and tablets. Free on the App Store and Google Play.</p>
-    </details>
-    <details class="faq__item">
-      <summary class="faq__question">Will my screen stay awake while I am holding it up?</summary>
-      <p class="faq__answer">Yes. The app keeps the screen on at maximum brightness automatically the entire time a name is displayed.</p>
-    </details>
-
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section-heading">Frequently asked.</h2>
+        <div class="faq__list reveal">
+          <details class="faq__item">
+            <summary class="faq__question">Is PickUp Sign free in New Zealand?</summary>
+            <div class="faq__answer"><p>Yes. The core app is free forever in New Zealand and everywhere. There are no ads, no trials, no time limits. The optional Colour Themes upgrade is US$0.99 per year if you want premium background colours.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Does it work without internet at the airport?</summary>
+            <div class="faq__answer"><p>Yes. PickUp Sign is fully offline. No mobile data, no Wi-Fi, no airport network required. Type the name, hold the screen up.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">What devices does it run on?</summary>
+            <div class="faq__answer"><p>iPhone, iPad, and Android phones and tablets. Free on the App Store and Google Play.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Will my screen stay awake while I am holding it up?</summary>
+            <div class="faq__answer"><p>Yes. The app keeps the screen on at maximum brightness automatically the entire time a name is displayed.</p></div>
+          </details>
+        </div>
       </div>
     </section>
 
-    <section class="cta">
-      <div class="container container--narrow cta__inner">
-        <h2 class="cta__heading">Free on the App Store and Google Play. Available throughout New Zealand.</h2>
-        <div class="hero__actions">
-          <a href="https://apps.apple.com/app/pickup-sign/id6762237559" class="app-badge app-badge--ios" aria-label="Download on the App Store">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40" aria-hidden="true"><rect width="120" height="40" rx="6" fill="#000"/><text x="60" y="25" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#fff" text-anchor="middle">Download on the App Store</text></svg>
-          </a>
-          <a href="https://play.google.com/store/apps/details?id=com.pickupsign.app" class="app-badge app-badge--android" aria-label="Get it on Google Play">
-            <img src="/google-play-badge-trimmed.png" alt="Get it on Google Play">
-          </a>
+    <section class="final-cta">
+      <div class="container">
+        <div class="final-cta__inner">
+          <h2 class="final-cta__heading">Free on the App Store and Google Play.<br>Available throughout New Zealand.</h2>
+          <div class="hero__actions">
+            <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer" class="app-badge app-badge--ios app-badge--large" aria-label="Download on the App Store">
+              <img src="/app-store-badge.svg" alt="Download on the App Store" height="50">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.pickupsign.app" target="_blank" rel="noopener noreferrer" class="app-badge app-badge--android app-badge--large" aria-label="Get it on Google Play">
+              <img src="/google-play-badge-trimmed.png" alt="Get it on Google Play" height="50">
+            </a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer__inner">
-      <p class="footer__company"><a href="https://skella.com.au/" target="_blank" rel="noopener">A Skella & Co Project</a></p>
-      <p class="footer__copy">© <span id="copyright-year">2026</span> Skella & Co Pty Ltd</p>
-      <p><a href="/privacy/" class="footer__privacy">Privacy Policy</a></p>
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__company"><a href="https://skella.com.au/" target="_blank" rel="noopener noreferrer">A Skella &amp; Co Project</a></span>
+        </div>
+        <nav class="footer__links" aria-label="Footer navigation">
+          <a href="/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <a href="https://apps.apple.com/app/pickup-sign/id6762237559" target="_blank" rel="noopener noreferrer">App Store</a>
+        </nav>
+      </div>
+      <p class="footer__copy">&copy; <script>document.write(new Date().getFullYear())</script> Skella &amp; Co Pty Ltd</p>
     </div>
   </footer>
 
-  <script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
+  <script src="/app.js" defer></script>
 </body>
 </html>
