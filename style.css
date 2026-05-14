@@ -1281,3 +1281,32 @@
   font-size: clamp(1.875rem, 1rem + 3vw, 3rem);
   line-height: 1.15;
 }
+
+/* Use-case rendered as a link (airport hub, blog index). Kill default link styling. */
+.use-case--link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.use-case--link:hover .use-case__title {
+  color: var(--color-accent);
+}
+.use-case--link .use-case__title,
+.use-case--link .use-case__desc {
+  text-decoration: none;
+}
+
+/* Grid forcing a multi-column layout for content listing pages. */
+.use-cases__grid--cards {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .use-cases__grid--cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .use-cases__grid--cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
