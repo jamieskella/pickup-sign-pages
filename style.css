@@ -318,6 +318,14 @@
   white-space: nowrap;
 }
 
+/* Centered cross-link block (used on hub, market, and airport pages) */
+.cross-links {
+  text-align: center;
+}
+.cross-links .section-heading {
+  text-align: center;
+}
+
 .hero__actions {
   margin-top: var(--space-8);
   display: flex;
