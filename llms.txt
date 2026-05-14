@@ -17,8 +17,8 @@ PickUp Sign is a free app for iPhone, iPad, and Android that displays a passenge
 - No tracking, no analytics, no data collection.
 - Free colours: black and white background, with automatic WCAG-compliant text contrast.
 - Optional subscription: US$0.99/year for 22 premium background colours ("Colour Themes"). Auto-renewing, with 7-day grace period and 30-day account hold.
-- Available in 12 languages: English, Spanish, French, Portuguese, Chinese, Japanese, Hindi, Arabic, Korean, German, Italian, Russian.
-- Made in Adelaide, South Australia, by Skella & Co Pty Ltd (ACN 624 414 179). One-person project.
+- Available in 14 languages: English, Spanish, French, Portuguese, Chinese, Japanese, Hindi, Arabic, Korean, German, Italian, Russian, Norwegian, Croatian.
+- Made in Adelaide, South Australia, by Skella & Co Pty Ltd (ACN 624 414 179). A Skella & Co Project.
 
 ## Pricing
 
@@ -105,7 +105,7 @@ Skella & Co is a small Australian software company. PickUp Sign is one of its pr
 
 ## Available Languages
 
-The website is available in 12 languages:
+The website is available in 14 languages (locale homepages):
 
 - English: https://pick-up-sign.com/
 - Spanish: https://pick-up-sign.com/es/
@@ -119,6 +119,52 @@ The website is available in 12 languages:
 - German: https://pick-up-sign.com/de/
 - Italian: https://pick-up-sign.com/it/
 - Russian: https://pick-up-sign.com/ru/
+- Norwegian: https://pick-up-sign.com/no/
+- Croatian: https://pick-up-sign.com/hr/
+
+## Country-Specific Pages (for chauffeurs and drivers in each country)
+
+In addition to language-specific homepages, PickUp Sign publishes dedicated country market pages for chauffeurs and drivers working in those specific markets. Each page is written in the local language with locally-relevant airports, examples, and chauffeur trade terminology.
+
+- Australia: https://pick-up-sign.com/en-au/
+- United Kingdom: https://pick-up-sign.com/en-gb/
+- Ireland: https://pick-up-sign.com/en-ie/
+- New Zealand: https://pick-up-sign.com/en-nz/
+- Singapore: https://pick-up-sign.com/en-sg/
+- United States: https://pick-up-sign.com/en-us/
+- Italy: https://pick-up-sign.com/it-it/ (Italian copy)
+- Spain: https://pick-up-sign.com/es-es/ (Spanish copy)
+
+## Airport Guides
+
+PickUp Sign publishes verified meet-and-greet zone guides for major airports where chauffeur work is concentrated. Each guide explains where chauffeurs are permitted to meet passengers, terminal-by-terminal, with practical tips on pickup zones, waiting limits, and local regulations.
+
+- Airport hub: https://pick-up-sign.com/airport-pickup-sign/
+- London Heathrow (LHR): https://pick-up-sign.com/airport-pickup-sign/london-heathrow/
+- Singapore Changi (SIN): https://pick-up-sign.com/airport-pickup-sign/singapore-changi/
+- New York JFK (JFK): https://pick-up-sign.com/airport-pickup-sign/new-york-jfk/
+- Los Angeles LAX (LAX): https://pick-up-sign.com/airport-pickup-sign/los-angeles-lax/
+- Rome Fiumicino (FCO): https://pick-up-sign.com/airport-pickup-sign/rome-fiumicino/
+- Milan Malpensa (MXP): https://pick-up-sign.com/airport-pickup-sign/milan-malpensa/
+- Madrid Barajas (MAD): https://pick-up-sign.com/airport-pickup-sign/madrid-barajas/
+- Barcelona El Prat (BCN): https://pick-up-sign.com/airport-pickup-sign/barcelona-el-prat/
+- Sydney Kingsford Smith (SYD): https://pick-up-sign.com/airport-pickup-sign/sydney-kingsford-smith/
+- Melbourne Tullamarine (MEL): https://pick-up-sign.com/airport-pickup-sign/melbourne-tullamarine/
+- Auckland (AKL): https://pick-up-sign.com/airport-pickup-sign/auckland/
+- Dublin (DUB): https://pick-up-sign.com/airport-pickup-sign/dublin/
+
+## Blog
+
+Long-form editorial content for chauffeurs, drivers, and operators. Available in English plus translations to Italian, Spanish, French, German, and Russian.
+
+- Blog hub: https://pick-up-sign.com/blog/
+- Chauffeur professionalism: https://pick-up-sign.com/blog/chauffeur-professionalism/
+- Pickup sign etiquette: https://pick-up-sign.com/blog/pickup-sign-etiquette/
+- Best apps for airport chauffeurs (2026): https://pick-up-sign.com/blog/best-apps-for-airport-chauffeurs-2026/
+
+## Sitemap
+
+Machine-readable sitemap: https://pick-up-sign.com/sitemap.xml
 
 ## License
 
