@@ -1,0 +1,159 @@
+/* page.css - Styles for market/airport/blog content pages.
+   Layered on top of base.css + style.css. Uses existing design tokens. */
+
+.hero__breadcrumb {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.55);
+  margin-bottom: 1.5rem;
+}
+.hero__breadcrumb a {
+  color: #FFCB00;
+  text-decoration: none;
+}
+.hero__breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.section__heading {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #fff;
+  margin: 0 0 2rem;
+  line-height: 1.15;
+}
+
+.feature-grid,
+.usecase-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-bottom: 2rem;
+}
+
+.feature,
+.usecase {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.feature__title,
+.usecase__title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #FFCB00;
+  margin: 0 0 0.5rem;
+}
+
+.feature__desc,
+.usecase__desc {
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.bullet-list {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin: 0 0 2rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+.bullet-list li {
+  margin: 0.5rem 0;
+  line-height: 1.55;
+}
+.bullet-list a {
+  color: #FFCB00;
+  text-decoration: none;
+}
+.bullet-list a:hover {
+  text-decoration: underline;
+}
+
+.cta {
+  padding: 4rem 0 5rem;
+  text-align: center;
+}
+.cta__inner {
+  text-align: center;
+}
+.cta__heading {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  font-weight: 700;
+  margin: 0 0 1.5rem;
+  color: #fff;
+}
+
+.faq {
+  padding: 4rem 0;
+}
+
+.faq__item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 1rem 0;
+}
+.faq__question {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  list-style: none;
+  padding: 0.5rem 0;
+}
+.faq__question::-webkit-details-marker { display: none; }
+.faq__question::before {
+  content: "+";
+  display: inline-block;
+  width: 1.5rem;
+  color: #FFCB00;
+  font-weight: 400;
+}
+details[open] .faq__question::before {
+  content: "−";
+}
+.faq__answer {
+  color: rgba(255, 255, 255, 0.78);
+  margin: 0.5rem 0 0.5rem 1.5rem;
+  line-height: 1.6;
+}
+
+/* Article / blog typography */
+.article {
+  padding: 4rem 0;
+}
+.article p,
+.article ul,
+.article ol {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0 0 1rem;
+}
+.article h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  color: #fff;
+  font-weight: 700;
+  margin: 2.5rem 0 1rem;
+  letter-spacing: -0.01em;
+}
+.article h3 {
+  font-size: 1.25rem;
+  color: #FFCB00;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+}
+.article ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.article a {
+  color: #FFCB00;
+}
+.article__meta {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+}
